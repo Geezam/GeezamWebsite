@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Geezam</title>
+    <meta name="description" content="Expressing surprise, astonishment or admiration through code.">
+    <meta name="keywords" content="Geezam, developer, IT specialist, programming, web development">
+
+    <link rel="canonical" href="https://geezam.com">
+
+    <meta property="og:title" content="Geezam | Developer & IT Specialist">
+    <meta property="og:description" content="Developer and IT specialist.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://geezam.com">
+    <meta property="og:image" content="https://geezam.com/geezam.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Geezam | Developer & IT Specialist">
+    <meta name="twitter:description" content="Developer and IT specialist.">
+    <meta name="twitter:image" content="https://geezam.com/geezam.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        /* CSS Reset */
+        body, h1, h2, p, form, footer, blockquote {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        /* --- START COLOR SCHEME --- */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #ffffff; /* White Background */
+            color: #000000; /* Black Text */
+            padding: 2rem;
+        }
+        /* --- END COLOR SCHEME --- */
+
+        /* Main Content Container */
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        /* Main Section */
+        main p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Section Spacing */
+        section {
+            /* Added margin-top to compensate for removed header */
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+        
+        /* Clearfix for floated elements */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        /* --- STYLES FOR DEFINITION --- */
+        #about h2 {
+            color: #01319b; /* Primary Blue */
+            font-size: 3rem; /* Larger */
+            font-weight: 700;
+            margin-bottom: 0.25rem; /* Reduced margin */
+        }
+        
+        /* --- PHONETIC STYLE --- */
+        .phonetic {
+            font-size: 1rem;
+            font-family: Arial, sans-serif; /* Standard font for IPA */
+            color: #666; /* Muted grey */
+            margin: 0 0 1rem 0; /* Space below phonetic */
+            padding: 0;
+        }
+        /* --- END PHONETIC STYLE --- */
+        
+        blockquote {
+            border-left: 3px solid #01319b; /* Primary Blue accent */
+            padding-left: 1.5rem;
+            margin: 0 0 1.5rem 0; /* Remove default side margins */
+        }
+        
+        .pos {
+            display: block; /* Put on its own line */
+            font-style: italic;
+            font-size: 1.1rem;
+            color: #555; /* Muted color */
+            margin-bottom: 0.25rem;
+        }
+        
+        .definition {
+            font-size: 1.2rem; 
+            font-style: normal; /* Main definition not italic */
+            font-weight: 500;
+            color: #000000; /* Black */
+            margin: 0 0 0.5rem 0; /* Reset margin */
+        }
+        
+        .lang {
+            display: block;
+            font-style: normal;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #01319b; /* Blue */
+            text-transform: uppercase;
+        }
+        /* --- END DICTIONARY STYLES --- */
+
+        /* Social Links */
+        .social-links {
+            margin-top: 0.5rem;
+        }
+
+        .social-links a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #01319b; /* Primary Blue */
+            margin: 0 0.5rem; /* Added margin for spacing between icons */
+        }
+        
+        .social-links a:hover {
+            color: #000000; /* Black on hover */
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid #ccc; /* Light grey border */
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <main>
+            
+            <section id="about" class="clearfix">
+                
+                <div style="float: right; margin-left: 1.5rem; margin-bottom: 0rem; text-align: center;">
+                    <img src="geezam.png" 
+                         alt="Geezam Logo"
+                         style="width: 150px; height: 150px; object-fit: contain; border-radius: 0;">
+                    
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/user/Geezam" target="_blank" rel="noopener noreferrer"><i class="bi bi-youtube"></i></a>
+                        <a href="https://github.com/geezam" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+                
+                <h2>Geezam</h2>
+                
+                <p class="phonetic">/ˈdʒiːzæm/</p>
+                
+                <blockquote>
+                    <span class="pos">exclamation</span>
+                    <p class="definition">expressing surprise, astonishment or admiration.</p>
+                    <span class="lang">Jamaican</span>
+                </blockquote>
+
+            </section>
+
+            </main>
+
+        <footer>
+            <p>&copy; 2025 Geezam.com</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
